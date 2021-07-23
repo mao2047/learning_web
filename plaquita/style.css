@@ -1,0 +1,29 @@
+h1{
+color: white;
+}
+
+img{
+    width:20%;
+    height:auto;
+    margin:10px;
+    border-radius:50%;
+    transform: rotate(0deg);
+    transition:500ms;
+}
+img:hover{
+    transform: rotate(-360deg);
+    transition:500ms;
+}
+
+body{
+    background-image: url("img/background.png");
+    background-repeat: repeat;
+}
+
+div#intro{
+    background-color: coral;
+    width: 300px;
+    height: auto;
+    padding: 7px;
+    text-align: center;
+}
