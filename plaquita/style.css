@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney&family=Zen+Tokyo+Zoo&display=swap');
+
+*{
+
+}
 h1{
-color: white;
+    color: white;
+    display:flex;
+    justify-content:center;
+    font-family: 'Zen Tokyo Zoo', cursive;
 }
 
 img{
@@ -9,6 +17,7 @@ img{
     border-radius:50%;
     transform: rotate(0deg);
     transition:500ms;
+    box-shadow: 2px 2px;
 }
 img:hover{
     transform: rotate(-360deg);
@@ -18,12 +27,16 @@ img:hover{
 body{
     background-image: url("img/background.png");
     background-repeat: repeat;
+    font-family: 'Tourney', cursive;
+    font-size: 18px
 }
 
 div#intro{
-    background-color: coral;
+    background-color: #fae1dd;
+    border-radius: 5px;
     width: 300px;
     height: auto;
     padding: 7px;
+    box-shadow: 2px 2px;
     text-align: center;
 }
