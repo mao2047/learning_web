@@ -1,0 +1,25 @@
+/* This is my first css stylesheet */
+
+h1 {
+    font-family: 'Pushster', cursive;
+} 
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+div.d1 {
+    color: blue;
+}
+
+span {
+    color: red;
+}
+
+figcaption {
+    color: green;
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Pushster&display=swap');
+</style>
